@@ -5,12 +5,12 @@
   "main": "dist/client/index.js",
   "typings": "dist/client/index.d.ts",
   "bin": {
-    "build-storybook": "./bin/build.js",
-    "start-storybook": "./bin/index.js",
-    "storybook-server": "./bin/index.js"
+    "build-storybook-html": "./bin/build.js",
+    "start-storybook-html": "./bin/index.js",
+    "storybook-server-html": "./bin/index.js"
   },
   "scripts": {
-    "prepare": "node ../../scripts/prepare.js"
+    "prepare": "npx rimraf dist && node --trace-warnings ../../scripts/prepare.js && cp -R ./bin ./dist/bin"
   },
   "dependencies": {
     "@storybook/addons": "6.0.0-alpha.2",

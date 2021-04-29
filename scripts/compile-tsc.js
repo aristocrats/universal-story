@@ -6,7 +6,9 @@ const shell = require('shelljs')
 function getCommand (watch) {
   const tsc = path.join(__dirname, '..', 'node_modules', '.bin', 'tsc')
 
-  const args = ['--outDir ./app/framework/dist', '--listEmittedFiles true']
+  const packagePath = path.join(__dirname, '..', 'packages')
+
+  const args = ['--outDir ./dist', '--listEmittedFiles true']
 
   /**
    * Only emit declarations if it does not need to be compiled with tsc
@@ -18,7 +20,7 @@ function getCommand (watch) {
     args.push('-w')
   }
 
-  return `${tsc} ${args.join(' ')}`
+  return `tsc ${args.join(' ')}`
 }
 
 function handleExit (code, stderr, errorCallback) {
