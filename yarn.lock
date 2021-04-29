@@ -14,9 +14,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aristorats/universal-story@workspace:packages/universal-story":
+"@aristocrats/universal-story@workspace:packages/universal-story":
   version: 0.0.0-use.local
-  resolution: "@aristorats/universal-story@workspace:packages/universal-story"
+  resolution: "@aristocrats/universal-story@workspace:packages/universal-story"
   dependencies:
     "@storybook/addons": 6.0.0-alpha.2
     "@storybook/client-api": 6.0.0-alpha.2
