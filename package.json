@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/aristocrats/universal-story#readme",
   "devDependencies": {
+    "@yarnpkg/pnpify": "^3.0.0-rc.3",
     "chalk": "^3.0.0",
     "shelljs": "^0.8.3"
   },
