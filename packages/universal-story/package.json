@@ -19,7 +19,6 @@
     "@storybook/core-events": "6.0.0-alpha.2",
     "@storybook/source-loader": "6.0.0-alpha.2",
     "@types/webpack": "^4.41.3",
-    "@types/webpack-env": "^1.15.0",
     "babel-loader": "^8.0.6",
     "core-js": "^3.0.1",
     "global": "^4.3.2",
@@ -37,5 +36,8 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "repository": "git://github.com/aristocrats/universal-story"
+  "repository": "git://github.com/aristocrats/universal-story",
+  "devDependencies": {
+    "@types/webpack-env": "^1.16.0"
+  }
 }

@@ -24,7 +24,7 @@ __metadata:
     "@storybook/core-events": 6.0.0-alpha.2
     "@storybook/source-loader": 6.0.0-alpha.2
     "@types/webpack": ^4.41.3
-    "@types/webpack-env": ^1.15.0
+    "@types/webpack-env": ^1.16.0
     babel-loader: ^8.0.6
     core-js: ^3.0.1
     global: ^4.3.2
@@ -2364,7 +2364,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-env@npm:^1.15.0":
+"@types/webpack-env@npm:^1.15.0, @types/webpack-env@npm:^1.16.0":
   version: 1.16.0
   resolution: "@types/webpack-env@npm:1.16.0"
   checksum: eaf62fb65ba18737174a520a444bb7407e5a6f32581690c5a7a687e6f86e9d4ce336fd9e79989aafa19e5f390046ad54b9100cd3d70a43dcf0ab0161d30cd5bd
