@@ -1,9 +1,10 @@
 {
-  "name": "@aristorats/universal-story",
+  "name": "@aristocrats/universal-story",
   "version": "0.1.0",
   "description": "",
   "main": "dist/client/index.js",
   "typings": "dist/client/index.d.ts",
+  "files": ["dist"],
   "bin": {
     "build-storybook-html": "./bin/build.js",
     "start-storybook-html": "./bin/index.js",
